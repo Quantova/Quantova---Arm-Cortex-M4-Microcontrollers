@@ -1,8 +1,13 @@
 Compile for ARM Cortex-M4
-I have added all the below files into pq_crypto_code folder for separate testing
+
+I have added all the below files into pq_crypto_code folder for separate testing.
+
  crypto_kem/ → Key Exchange Mechanisms (Kyber, NTRU, etc.) optimized for Cortex-M4
+ 
  crypto_sign/ → Post-Quantum Digital Signatures (Dilithium, Falcon, etc.)
+ 
  mupq/ → Test framework that benchmarks post-quantum cryptography on Cortex-M4
+
  tests/ → Scripts that measure speed, RAM, and flash usage on Cortex-M4 hardware
 
 
